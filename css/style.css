@@ -11,7 +11,7 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
 
 
 /* 레이아웃 */
-#contents .container-1 {background-color: #bbdefb;}
+#contents .container-1 {/*background-color: #bbdefb;*/}
 #cont_center {
     min-height: 980px;
     /*border-right: 1px solid #dbdbdb;
@@ -25,13 +25,14 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
 .container-1{position: relative; width: 1100px; margin: 0 auto; }
 
 /* 해더 */
-.header{height: 150px; background-color: #90caf9;}
+.header{height: 150px; /*background-color: #90caf9;*/}
 
 .header .header_tit {
     text-align: center; 
     text-transform: uppercase; 
     margin-top: 20px; 
     font-family: 'Cafe24Ssurround', 'sans-serif';}
+
 .header .header_tit h1 {
     font-size: 50px; color: #000000;    
     display: inline-block;
