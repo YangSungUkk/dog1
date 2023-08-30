@@ -11,21 +11,21 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
 
 
 /* 레이아웃 */
-#contents .container-1 {background-color: #bbdefb;}
+#contents .container-1 {/*background-color: #bbdefb;*/}
 #cont_center {
-    min-height: 1030px;
-    border-right: 1px solid #dbdbdb;
-    border-left: 1px solid #dbdbdb;
+    min-height: 980px;
+    /*border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;*/
 }
 #footer {
-    background-color: #0d47a1;
+    background-color: #dbdbdb;
     border-top: 1px solid #dbdbdb; }
 
 /* 컨테이너 */
 .container-1{position: relative; width: 1100px; margin: 0 auto; }
 
 /* 해더 */
-.header{height: 150px; background-color: #90caf9;}
+.header{height: 150px; /*background-color: #90caf9;*/}
 
 .header .header_tit {
     text-align: center; 
@@ -49,8 +49,8 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
 
 /* 컨텐츠 영역 */
 .column {
-    padding: 15px; border-bottom: 1px solid #ff0000;
-    background-color: #64b5f6;
+    padding: 15px; /*border-bottom: 1px solid #ff0000;*/
+    /*background-color: #64b5f6;*/
 }
 .col1{
     height: 600px;    
