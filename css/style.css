@@ -11,7 +11,7 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
 
 
 /* 레이아웃 */
-#contents .container-1 {/*background-color: #bbdefb;*/}
+#contents .container-1 {background-color: #bbdefb;}
 #cont_center {
     min-height: 980px;
     /*border-right: 1px solid #dbdbdb;
@@ -25,7 +25,7 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
 .container-1{position: relative; width: 1100px; margin: 0 auto; }
 
 /* 해더 */
-.header{height: 150px; /*background-color: #90caf9;*/}
+.header{height: 150px; background-color: #90caf9;}
 
 .header .header_tit {
     text-align: center; 
@@ -138,20 +138,20 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
     font-family: 'Cafe24Ssurround', 'sans-serif';
     width: 80%;
     margin: 0 auto;
-    font-size: 24px;
+    font-size: 27px;
 }
 
-.align-items-center {
+/*.align-items-center {
     align-items: center!important;
-}
+}*/
 
 .result-message {
     font-family: 'Cafe24Ssurround', 'sans-serif';
     font-size: 27px;
     position: relative;
     margin-top: 0%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 /* 그래프 */
@@ -167,6 +167,7 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
     border-radius: 10px;
     width: 100%;
     background-color: rgba(117, 204, 84, 0.2);
+    margin-top: 5px;   
 }
 
 .GermanShepherd-bar {
@@ -176,6 +177,7 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
     height: var(--box-height);
     border-radius: 10px;
     background-color: rgb(239, 255, 12);
+    margin-top: 5px;   
 }
 
 .Bulldog-box {
@@ -186,7 +188,7 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
     border-radius: 10px;
     width: 100%;
     background-color: rgba(117, 204, 84, 0.2);    
-    
+    margin-top: 5px;
 }
 
 .Bulldog-bar {
@@ -197,7 +199,7 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
     /* height: 35px; */
     border-radius: 10px;
     background-color: rgb(81, 127, 255);
-    
+    margin-top: 5px;    
 }
 
 .Poodle-box {
@@ -208,6 +210,7 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
     border-radius: 10px;
     width: 100%;
     background-color: rgba(117, 204, 84, 0.2);
+    margin-top: 5px;   
 }
 
 .Poodle-bar {
@@ -217,6 +220,7 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
     height: var(--box-height);
     border-radius: 10px;
     background-color: rgba(117, 204, 84, 1);
+    margin-top: 5px;   
 }
 
 /* 다시시작 */
@@ -267,7 +271,7 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
     .container-1 {width: 900px;}
     .file-upload-content .file-upload-image{top: 52px; left: 31%;}
     .result-message {font-size: 26px;}
-    #label-container {font-size: 23px;}
+    #label-container {font-size: 26px; width: 90%;}
 }
 
 /* 화면 너비 0~1024px */
@@ -278,7 +282,7 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
 /* 화면 너비 0~960px */
 @media (max-width : 960px){
     .container-1 {width: 740px;}
-    .file-upload-content .file-upload-image{top: 45px; left: 31.5%; width: 260px; height: 350px;}
+    .file-upload-content .file-upload-image{top: 45px; left: 31%; width: 260px; height: 350px;}
     #cont_center {min-height: 900px;}
     .header{height: 120px;}
     .header .header_tit h1 {font-size: 40px;}
@@ -287,9 +291,9 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
     .col2{height: 120px;}
     .file-upload-input {width: 300px; height: 120px;}
     .upload{height: 120px;}    
-    .result-message {font-size: 21px;}
-    #label-container {font-size: 18px;}
-    .animal-label {height: 37px;}
+    .result-message {font-size: 23px;}
+    #label-container {font-size: 23px; width: 90%;}
+    .animal-label {height: 37px; width: 33%;}
     .footer {padding: 1px 1px; font-size: 17px;} 
     .footer ul{margin-bottom: 5px;}
 }
@@ -297,17 +301,17 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
 /* 화면 너비 0~768px */
 @media (max-width : 768px){
     .container-1 {width: 570px;}
-    .file-upload-content .file-upload-image{top: 35px; left: 31.5%; width: 200px; height: 270px;}
+    .file-upload-content .file-upload-image{top: 35px; left: 31%; width: 200px; height: 270px;}
     #cont_center {min-height: 850px;}
-    .header{height: 110px;}
-    .header .header_tit h1 {font-size: 35px;}
+    .header{height: 100px;}
+    .header .header_tit h1 {font-size: 35px; margin-bottom: 0;}
     .header .header_tit h2 {font-size: 25px;}
     .col1{height: 400px;}
     .col2{height: 90px;}
     .file-upload-input {width: 200px; height: 90px;}
     .upload{height: 90px;}    
-    .result-message {font-size: 16px;}
-    #label-container {font-size: 14px;}
+    .result-message {font-size: 19px;}
+    #label-container {font-size: 19px;}
     .animal-label {height: 37px;}
     .remove-image {font-size: 13px;}
     :root {--box-height : 27px;}
@@ -319,17 +323,17 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
 /* 화면 너비 0~600px */
 @media (max-width : 600px){
     .container-1 {width: 450px;}
-    .file-upload-content .file-upload-image{top: 22px; left: 32.5%; width: 150px; height: 200px;}
+    .file-upload-content .file-upload-image{top: 22px; left: 31%; width: 150px; height: 200px;}
     #cont_center {min-height: 650px;}
-    .header{height: 100px;}
+    .header{height: 90px;}
     .header .header_tit h1 {font-size: 30px;}
     .header .header_tit h2 {font-size: 20px;}
     .col1{height: 300px;}
     .col2{height: 65px;}
     .file-upload-input {width: 170px; height: 65px;}
     .upload{height: 65px;}  
-    .result-message {font-size: 12px;}
-    #label-container {font-size: 11px;}
+    .result-message {font-size: 15px;}
+    #label-container {font-size: 15px;}
     .animal-label {height: 30px;}
     .remove-image {font-size: 10px; width: 22%;}
     .bar-container {height: 2.3rem;}
@@ -343,15 +347,15 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
     .container-1 {width: 380px;}
     .file-upload-content .file-upload-image{top: 17px; left: 32%; width: 120px; height: 160px;}
     #cont_center {min-height: 500px;}
-    .header{height: 90px;}
+    .header{height: 80px;}
     .header .header_tit h1 {font-size: 25px;}
     .header .header_tit h2 {font-size: 17px;}
     .col1{height: 250px;}
     .col2{height: 50px;}
     .file-upload-input {width: 150px; height: 60px;}
     .upload{height: 60px;}   
-    .result-message {font-size: 10.5px;}
-    #label-container {font-size: 10px;}
+    .result-message {font-size: 12.9px;}
+    #label-container {font-size: 12.9px;}
     .animal-label {height: 30px; width : 37%}
     .remove-image {font-size: 10px; zoom: 0.8;}
     .footer {padding: 15px 30px;} 
@@ -366,15 +370,15 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
     .container-1 {width: 330px;}
     .file-upload-content .file-upload-image{top: 17px; left: 30%; width: 120px; height: 160px;}
     #cont_center {min-height: 500px;}
-    .header{height: 80px;}
+    .header{height: 70px;}
     .header .header_tit h1 {font-size: 22px;}
     .header .header_tit h2 {font-size: 15px;}
     .col1{height: 250px;}
     .col2{height: 50px;}
     .file-upload-input {width: 150px; height: 60px;}
     .upload{height: 60px;}   
-    .result-message {font-size: 10px; zoom: 0.91;}
-    #label-container {font-size: 10px;}
+    .result-message {font-size: 11px;}
+    #label-container {font-size: 11px;}
     .animal-label {height: 30px; width : 37%}
     .remove-image {font-size: 10px; zoom: 0.8;}
     :root {--box-height : 20px;}
@@ -395,8 +399,8 @@ h1, h2 {font-family: 'Cafe24Ssurround', 'sans-serif';}
     .col2{height: 40px;}
     .file-upload-input {width: 100px; height: 40px;}
     .upload{height: 40px;}  
-    .result-message {font-size: 10px; zoom: 0.67;}
-    #label-container {font-size: 10px; zoom: 0.7;}
+    .result-message {font-size: 10px; zoom: 0.8;}
+    #label-container {font-size: 10px; zoom: 0.8;}
     .animal-label {height: 30px;}
     .remove-image {font-size: 10px; zoom: 0.6;}
     :root {--box-height : 20px;}
